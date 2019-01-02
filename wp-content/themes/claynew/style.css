@@ -926,7 +926,7 @@ p {
 
 
 .navigation-top.site-navigation-fixed {
-    background-color: #0b9ec1;
+    background: #0b9ec1;
     border-radius: 0;
     border: 0;
     margin-bottom: 0;
@@ -4793,3 +4793,17 @@ header.entry-header {
     margin-top: -65px;
 }
 .main-navigation li:hover {background:#f3b007; color:#fff; }
+
+.sub-menu li {
+    background: #0B9EC1;
+    border-bottom: 1px solid #fff !important;
+    text-transform: uppercase;
+}
+.main-navigation li li:hover, .main-navigation li li.focus
+{
+	background: #f3b007;
+}
+.main-navigation li li a
+{
+	text-transform: uppercase;
+}
