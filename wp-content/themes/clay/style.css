@@ -950,3 +950,7 @@ p {
   /* border: 5px solid #f99d2a; */
 }
 }
+.main-menu-more
+{
+  display: none;
+}
