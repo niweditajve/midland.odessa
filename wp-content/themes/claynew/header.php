@@ -33,13 +33,8 @@
       <div class="top_bar_inner">
         <div class="row">
           <div class="col-md-6">
-            <ul class="social_icon_top">
-              <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-              <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-            </ul>
+            <?php the_social_links();?>
+            
           </div>
           <div class="col-md-6">
             
