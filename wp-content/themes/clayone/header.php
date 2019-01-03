@@ -21,6 +21,7 @@
 	<?php endif; ?>
 	<link href="<?php bloginfo('template_url'); ?>/css/font-awesome.min.css" rel="stylesheet">
     <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.min.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/css/owl.carousel.min" rel="stylesheet">
    
 	<?php wp_head(); ?>
 </head>

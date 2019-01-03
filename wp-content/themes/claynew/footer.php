@@ -42,6 +42,47 @@
 	</div><!-- .site-content-contain -->
 </div><!-- #page -->
 <?php wp_footer(); ?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
 
+<script src="<?php bloginfo('template_url'); ?>/js/bootstrap.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/js/owl.carousel.min.js"></script>
+<script>
+$('#testimonial_slide').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:false,
+	dots:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
+})
+
+$('#news_article').owlCarousel({
+    loop:true,
+    margin:30,
+    nav:false,
+	dots:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+
+</script>
 </body>
 </html>
