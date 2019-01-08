@@ -1741,12 +1741,12 @@ body {
 	background: #1a1a1a;
 }
 */
-hr {
+/*hr {
 	background-color: #d1d1d1;
 	border: 0;
 	height: 1px;
 	margin: 0 0 1.75em;
-}
+}*/
 
 ul,
 ol {
@@ -3066,18 +3066,18 @@ a.post-thumbnail:focus {
 .textwidget h4,
 .textwidget h5,
 .textwidget h6 {
-	font-size: 16px;
+	/*font-size: 16px;
 	font-size: 1rem;
 	line-height: 1.3125;
 	margin-top: 3.5em;
-	margin-bottom: 1.75em;
+	margin-bottom: 1.75em;*/
 }
 
 .entry-content h4,
 .entry-summary h4,
 .comment-content h4,
 .textwidget h4 {
-	letter-spacing: 0.140625em;
+	letter-spacing: 0.3px;
 	text-transform: uppercase;
 }
 
@@ -3112,7 +3112,7 @@ a.post-thumbnail:focus {
 .textwidget h4,
 .textwidget h5,
 .textwidget h6 {
-	font-weight: 900;
+	font-weight: 700;
 }
 
 .entry-content h1:first-child,
@@ -4811,7 +4811,7 @@ p > video {
 	.entry-summary h4,
 	.entry-intro h4,
 	.comment-content h4 {
-		letter-spacing: 0.131578947em;
+	/*	letter-spacing: 0.131578947em;*/
 	}
 
 	.entry-content h4,
@@ -4823,11 +4823,11 @@ p > video {
 	.comment-content h4,
 	.comment-content h5,
 	.comment-content h6 {
-		font-size: 19px;
+		/*font-size: 19px;
 		font-size: 1.1875rem;
 		line-height: 1.1052631579;
 		margin-top: 2.9473684211em;
-		margin-bottom: 1.473684211em;
+		margin-bottom: 1.473684211em;*/
 	}
 
 	.author-info {
@@ -5326,4 +5326,48 @@ h2.hchw-title {
 }
 h2.entry-title {
     display: none;
+}
+
+.banner-caption {
+    background: rgba(1, 87, 137, 0.7) !important;
+    padding:30px 30px 85px 30px !important;
+}   
+.banner-caption h4 {
+    font-size: 36px !important;
+    font-weight: bold !important;
+    padding-bottom: 20px !important;
+    color: #fff !important;
+    text-align: left !important;
+}
+
+.banner-caption p {
+    font-size: 20px !important;
+    color: #fff !important;
+}
+
+.banner-caption span {
+    display: block !important;
+    padding: 10px 0 !important;
+    font-size: 26px !important;
+    font-weight: bold !important;
+    color: #ffad00 !important;
+}
+.contact-banner a {
+    /*width: 250px;*/
+    padding: 10px 30px !important;
+    font-size: 20px !important;
+    color: #fff !important;
+    display: inline !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+    border: 2px solid #fff !important;
+}
+.contact-banner a:hover {
+    border: 2px solid #ffad00 !important;
+}
+
+.contact-banner {
+    display: inline !important;
+    float: left;
+    margin-top:20px;
 }
